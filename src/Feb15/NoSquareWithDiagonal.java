@@ -13,11 +13,10 @@ public class NoSquareWithDiagonal
                 {
                     System.out.print("*");
                 }
-            else
-                System.out.print(j);
+                else
+                    System.out.print(j);
             }
             System.out.println();
-
             a++;
         }
     }

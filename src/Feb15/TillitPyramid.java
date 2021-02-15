@@ -2,16 +2,17 @@ package Feb15;
 
 public class TillitPyramid
 {
-    public static void main(String[] args) {
-    int n = 5;
-    for (int i= 0; i<= n-1 ; i++)
+    public static void main(String[] args)
     {
-        for (int j=0; j<=i; j++)
+        int n = 5;
+        for (int i= 0; i<= n-1 ; i++)
         {
-            System.out.print(i+1 +" ");
-            if(j!=i )
-                System.out.print("* ");
-        }
+            for (int j=0; j<=i; j++)
+            {
+                System.out.print(i+1 +" ");
+                if(j!=i )
+                    System.out.print("* ");
+            }
         System.out.println("");
     }
     for (int i=n-1; i>=0; i--)

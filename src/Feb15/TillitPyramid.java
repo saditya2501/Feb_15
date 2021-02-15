@@ -23,7 +23,7 @@ public class TillitPyramid
                 if(j!=i-1)
                     System.out.print("* ");
             }
-        System.out.println("");
-    }
+            System.out.println("");
+        }
 }
 }

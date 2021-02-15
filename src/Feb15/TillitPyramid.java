@@ -13,16 +13,16 @@ public class TillitPyramid
                 if(j!=i )
                     System.out.print("* ");
             }
-        System.out.println("");
-    }
-    for (int i=n-1; i>=0; i--)
-    {
-        for(int j=0; j <= i-1;j++)
-        {
-            System.out.print(i+" ");
-            if(j!=i-1)
-                System.out.print("* ");
+            System.out.println("");
         }
+        for (int i=n-1; i>=0; i--)
+        {
+            for(int j=0; j <= i-1;j++)
+            {
+                System.out.print(i+" ");
+                if(j!=i-1)
+                    System.out.print("* ");
+            }
         System.out.println("");
     }
 }

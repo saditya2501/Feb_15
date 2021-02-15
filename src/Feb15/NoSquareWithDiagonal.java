@@ -8,10 +8,11 @@ public class NoSquareWithDiagonal
         for(int i=1;i<=x;i++)
         {
             for(int j=x;j>=1;j--)
-            {   if(i==a && j==a)
             {
-                System.out.print("*");
-            }
+                if(i==a && j==a)
+                {
+                    System.out.print("*");
+                }
             else
                 System.out.print(j);
             }

@@ -37,6 +37,6 @@ public class Rotate
     }
     last= (int) (sum*Math.pow(10,a)+n2);
     System.out.println(last);
-}
+    }
 }
 

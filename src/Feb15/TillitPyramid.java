@@ -1,6 +1,8 @@
 package Feb15;
 
-public class TillitPyramid {public static void main(String[] args) {
+public class TillitPyramid
+{
+    public static void main(String[] args) {
     int n = 5;
     for (int i= 0; i<= n-1 ; i++)
     {
